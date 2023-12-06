@@ -41,6 +41,6 @@ if __name__ == "__main__":
     print("Intervalul de 90% HDI pentru probabilitatea ca studentul sa fie admis: ", hdi_new_student)
     print("Intervalul de 90% HDI pentru probabilitatea ca studentul 2 sa fie admis: ", hdi_new_student_2)
 
-    # intervalele difera deoarece studentii au GPA-uri diferite, astfel daca majoritatea studentilor din baza de date
-    # ar avea GPA-urile in jurul valorii primului student, atunci intervalul rezultat primului student este mai mic
+    # intervalele difera deoarece studentii au scoruri diferite (GRE si GPA), astfel daca majoritatea studentilor din baza de date
+    # ar avea scorurile in jurul valorilor primului student, atunci intervalul rezultat primului student este mai mic
     # (are sanse mai mari sa ofere predictia buna).
